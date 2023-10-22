@@ -30,4 +30,15 @@ En el contexto de nuestro proyecto de desarrollo de software, hemos decidido ado
 
 ## Decision Outcome
 
-Chosen option: "Modelo-Vista-Controlador", because Porque el usuario tiene mucho sueño
+Chosen option: "Modelo-Vista-Controlador", because La arquitectura de Modelo-Vista-Controlador (MVC) es una forma de organizar el diseño de un sistema software que separa los datos, la lógica y la interfaz de usuario en tres componentes independientes.
+
+### Positive Consequences
+
+* Facilita la migración: MVC facilita la migración de un sistema monolítico a uno basado en microservicios, ya que permite separar la lógica de negocio, la interfaz de usuario y el control del flujo de la aplicación en tres componentes distintos. Esto puede hacer que el código sea más fácil de adaptar y reemplazar.
+* Mejora la usabilidad: MVC mejora la usabilidad de la aplicación, ya que permite cambiar la interfaz de usuario sin modificar la lógica de negocio o el controlador. Esto puede resultar en una mejor experiencia para los clientes PC y móvil que acceden a los datos de la empresa.
+* Aumenta la cohesión y reduce el acoplamiento: MVC aumenta la cohesión y reduce el acoplamiento entre los componentes de la aplicación, ya que cada uno tiene una responsabilidad clara y definida. Esto puede resultar en un código más limpio y mantenible.
+
+### Negative Consequences
+
+* Requiere más componentes y comunicación: MVC requiere más componentes y comunicación entre ellos que una arquitectura monolítica, ya que los datos deben pasar a través del modelo, la vista y el controlador antes de llegar al usuario. Esto puede afectar al rendimiento y la escalabilidad de la aplicación.
+* Puede generar redundancia e inconsistencia: MVC puede generar redundancia e inconsistencia en los datos, ya que cada componente puede tener su propia copia o versión de los datos. Esto puede resultar en problemas de sincronización y actualización de los datos
