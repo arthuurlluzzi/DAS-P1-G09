@@ -30,4 +30,4 @@ En el contexto de nuestro proyecto de desarrollo de software, hemos decidido ado
 
 ## Decision Outcome
 
-Chosen option: "Modelo-Vista-Controlador", because Porque el usuario ti
+Chosen option: "Modelo-Vista-Controlador", because Porque el usuario tiene mucho sueño
